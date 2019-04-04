@@ -17,13 +17,13 @@
 
 ## Serverless と FaaS の関係性
 
-![](../assets/img/serverless_and_faas.png)
+![serverless_and_faas](presentation/assets/img/serverless_and_faas.png)
 
 +++
 
 ## On-prem, IaaS, CaaS, PaaS and FaaS
 
-![](../assets/img/faas_comparison.png)
+![faas_comparison](presentation/assets/img/faas_comparison.png)
 
 source: [Introduction to Serverless: What is Serverless?](https://www.youtube.com/watch?v=4caavWtJLfc&feature=share)
 
