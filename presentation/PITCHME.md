@@ -30,6 +30,8 @@ Function as a Service
 
 ---?include=presentation/topics/closing.md
 
+---?include=topics/intro.md
+
 ---
 
 お疲れ様でした！
