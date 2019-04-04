@@ -1,7 +1,7 @@
 # Section FaaS
 Hello, I'm gonna tell you about `serverless` and `FaaS` today.
 
-- presentation: check out [from here! (GitPitch)](https://gitpitch.com/iwashi/2019nttcomtraining/master?p=faas/presentation)
+- presentation: check out [from here! (GitPitch)](https://gitpitch.com/take4mats/faas-handson?p=presentation)
   - if the above link is broken, find by yourself based on below pattern:
     ```
     https://gitpitch.com/$user/$repo/$branch?p=$dir/$subdir
