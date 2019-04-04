@@ -34,7 +34,7 @@ TODOリストアプリを作ろう！
 +++
 
 @div[left-50]
-![yotaka](assets/img/YOTA93_udewokumubiz15121216.jpg.jpg)
+![yotaka](presentation/assets/img/YOTA93_udewokumubiz15121216.jpg.jpg)
 @divend
 
 @div[right-50]
