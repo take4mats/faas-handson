@@ -12,23 +12,23 @@ Function as a Service
 
 ---
 
----?include=topics/intro.md
+---?include=presentation/topics/intro.md
 
----?include=topics/lecture_faas.md
+---?include=presentation/topics/lecture_faas.md
 
----?include=topics/examples.md
+---?include=presentation/topics/examples.md
 
----?include=topics/handson_intro.md
+---?include=presentation/topics/handson_intro.md
 
----?include=topics/handson_web.md
+---?include=presentation/topics/handson_web.md
 
----?include=topics/handson_sls.md
+---?include=presentation/topics/handson_sls.md
 
----?include=topics/handson_troubleshooting.md
+---?include=presentation/topics/handson_troubleshooting.md
 
----?include=topics/reference.md
+---?include=presentation/topics/reference.md
 
----?include=topics/closing.md
+---?include=presentation/topics/closing.md
 
 ---
 
