@@ -1,6 +1,6 @@
 ## Serverless Architecture 事例
 
-+++
+---
 
 ## A. 従来システムのサーバーレス化
 **LIFT** and Shift
@@ -9,11 +9,11 @@
 
 ### 事例A-1 典型的な Web API の置き換え
 - 一般的なCRUD API
-<img src="presentation/assets/img/web_api.jpg" width="80%">
+<img src="presentation/assets/img/web_api.jpg" width="60%">
 source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 +++
 ### 事例A-2 SPA
-- S3のjsを押いて、lambdaを発火
+- S3にhtml/jsを格納して、lambdaを発火
 <img src="presentation/assets/img/spa.jpg" width="100%">
 source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 ---
@@ -24,8 +24,8 @@ Lift and **SHIFT**
 +++
 
 ### 事例 B-1. 非同期ジョブ
-- 画像アップロード→リサイズや切り出し
 - 日経新聞の事例
+- 画像アップロード→リサイズや切り出し
 <img src="presentation/assets/img/nikkei.jpg" width="80%">
 source: [紙面ビューアーを刺させるサーバレスアーキテクチャ](https://speakerdeck.com/ikait/serverless-architecture-supports-nikkeis-paper-viewer)
 
@@ -39,7 +39,7 @@ source: [サーバーレスアーキテクチャのパターン別ユースケ�
 
 ### 事例 B-3 オンコールシステム
 - アラートをトリガーに電話を鳴らす
-<img src="presentation/assets/img/oncall.png" width="100%">
+<img src="presentation/assets/img/on_call.jpg" width="100%">
 https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
