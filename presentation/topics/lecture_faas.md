@@ -2,7 +2,7 @@
 
 +++
 
-## serverless architecture とは？
+## serverless architecture ？
 - 「 ~~サーバーが本当に不要~~ 」
 - 「サーバーに直接アクセスしなくても仕事ができる」アーキテクチャ
 - 究極の目標は、開発者がサーバーやインフラを気にかけずにコードに全力を注げるようにすること
@@ -18,7 +18,7 @@
 
 +++
 
-## On-prem, IaaS, CaaS, PaaS and FaaS
+## On-prem/IaaS/CaaS/PaaS/FaaS
 
 <img src="presentation/assets/img/faas_comparison.png" width="50%">
 

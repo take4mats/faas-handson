@@ -1,4 +1,4 @@
-# Serverless Architecture 事例
+## Serverless Architecture 事例
 
 - パターン
     - 従来のシステムのサーバーレス化
@@ -11,17 +11,17 @@
 +++
 
 ## パターンA. 従来のシステムのサーバーレス化
-**LIFT** and Shift (ちょっと違う？)
+**LIFT** and Shift
 
 +++
 
 ### 事例 A-1. 典型的な Web API の置き換え
 - APIGW, Lambda, DynamoDB
-
+<img src="presentation/assets/img/web_api.jpg" width="50%">
 ---
 
 ## パターンB. FaaS ならではの事例
-Lift and **SHIFT** (ちょっと違う？)
+Lift and **SHIFT**
 
 +++
 
