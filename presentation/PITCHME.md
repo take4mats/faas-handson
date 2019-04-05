@@ -10,8 +10,6 @@ Function as a Service
 
 [george](https://github.com/take4mats/), [yoshiya](), [yi]()
 
----
-
 ---?include=presentation/topics/intro.md
 
 ---?include=presentation/topics/lecture_faas.md
