@@ -1,16 +1,8 @@
 ## Serverless Architecture 事例
 
-- パターン
-    - 従来のシステムのサーバーレス化
-    - 全く違う発想の、FaaSだからこそできるような事例
-- 事例
-    - aiboとか良いよね
-    - 動画、画像のエンコード (いろんな画質で動画が見られるのは売れでこんなものがあるからだよ、など)
-
-
 +++
 
-## A. 従来のシステムのサーバーレス化
+## A. 従来システムのサーバーレス化
 **LIFT** and Shift
 
 +++
@@ -42,6 +34,7 @@ https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 - CloudWatchによる定期的なトリガーでヘルスチェックを実行
 <img src="presentation/assets/img/monitoring.jpg" width="100%">
 
++++
 
 ### 事例 B-3 オンコールシステム
 - アラートをトリガーに電話を鳴らす
