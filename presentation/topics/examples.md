@@ -18,7 +18,7 @@ source: [サーバーレスアーキテクチャのパターン別ユースケ�
 source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 ---
 
-## @css[headline](B. FaaS ならではの事例)
+## B. FaaS ならではの事例
 Lift and **SHIFT**
 
 +++
@@ -27,24 +27,23 @@ Lift and **SHIFT**
 - 日経新聞の事例
 - 画像アップロード→リサイズや切り出し
 <img src="presentation/assets/img/nikkei.jpg" width="80%">
-source: [紙面ビューアーを刺させるサーバレスアーキテクチャ](https://speakerdeck.com/ikait/serverless-architecture-supports-nikkeis-paper-viewer)
+- source: [紙面ビューアーを刺させるサーバレスアーキテクチャ](https://speakerdeck.com/ikait/serverless-architecture-supports-nikkeis-paper-viewer)
 
 +++
 ### 事例 B-2 Webサイト監視
 - 定期的なトリガーでヘルスチェックを実行
 <img src="presentation/assets/img/monitoring.jpg" width="100%">
-source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
+- source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
 +++
 
 ### 事例 B-3 オンコールシステム
 - アラートをトリガーに電話を鳴らす
 <img src="presentation/assets/img/on_call.jpg" width="100%">
-https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
-source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
+- source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
 +++
 ### 事例 B-4 aibo
 - aiboはすべてサーバレス
 <img src="presentation/assets/img/aibo.jpg" width="80%">
-source: [aiboクラウドサービスを支えるサーバレス技術](https://speakerdeck.com/ryoheimorimoto/serverlessconf-tokyo-2018-aibo)
+- source: [aiboクラウドサービスを支えるサーバレス技術](https://speakerdeck.com/ryoheimorimoto/serverlessconf-tokyo-2018-aibo)
