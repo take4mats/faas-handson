@@ -14,13 +14,13 @@
 
 ## Serverless と FaaS の関係性
 
-![serverless_and_faas](presentation/assets/img/serverless_and_faas.png)
+<img src="presentation/assets/img/serverless_and_faas.png" width="50%">
 
 +++
 
 ## On-prem, IaaS, CaaS, PaaS and FaaS
 
-![faas_comparison](presentation/assets/img/faas_comparison.png)
+<img src="presentation/assets/img/faas_comparison.png" width="50%">
 
 source: [Introduction to Serverless: What is Serverless?](https://www.youtube.com/watch?v=4caavWtJLfc&feature=share)
 
@@ -28,8 +28,8 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 
 ## FaaS とは？
 - 関数をコードで定義するだけ
-- 使用した分だけ課金される（全く起動しなければ無課金）
-- イベントドリブン (従来に比べて利用の幅が広がる)
-- ステートレスに書くのが通例 (何か保持するなら backend で)
-
-+++
+- 使用した分だけ課金される
+- イベントドリブン
+- サーバダウンの概念がない
+- ステートレスに書くのが通例
+   - 何か保持するなら backend で
