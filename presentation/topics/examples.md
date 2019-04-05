@@ -15,7 +15,7 @@ https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 +++
 ### 事例A-2 SPA
 - S3のjsを押いて、lambdaを発火
-<img src="presentation/assets/img/spa.png" width="100%">
+<img src="presentation/assets/img/spa.jpg" width="100%">
 https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 
 ---
