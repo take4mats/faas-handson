@@ -27,3 +27,4 @@ TODOリストアプリを作ろう！
 +++
 
 詳しくは、slackに張っているURLをクリック
+https://github.com/take4mats/faas-handson/blob/master/presentation/app_intro.md
