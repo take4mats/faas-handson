@@ -6,9 +6,6 @@
 - 「 ~~サーバーが本当に不要~~ 」
 - 「サーバーに直接アクセスしなくても仕事ができる」アーキテクチャ
 - 究極の目標は、開発者がサーバーやインフラを気にかけずにコードに全力を注げるようにすること
-- 参考
-    - [CNCF Serverless Whietepaper v1.0](https://github.com/cncf/wg-serverless/tree/master/whitepapers/serverless-overview)
-    - https://qiita.com/__Attsun__/items/31d4beb6dc264efc6c0f
 - もたらす効果
     - スケールを気にしなくて良い（auto-scaling）
     - 従量課金
