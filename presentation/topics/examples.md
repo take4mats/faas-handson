@@ -17,7 +17,7 @@
 
 ### 事例A-1 典型的な Web API の置き換え
 - 一般的なCRUD API
-<img src="presentation/assets/img/web_api.jpeg" width="100%">
+<img src="presentation/assets/img/web_api.jpg" width="100%">
 https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 
 +++
@@ -47,3 +47,5 @@ https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 - アラートをトリガーに電話を鳴らす
 <img src="presentation/assets/img/oncall.png" width="100%">
 https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
+
+### 事例 B-4 aibo
