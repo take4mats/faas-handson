@@ -13,10 +13,11 @@
 https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 
 +++
-### 事例A-2 シングルページアプリケーション
-- APサーバを不要とするSPAの実現
+### 事例A-2 SPA
+- S3のjsを押いて、lambdaを発火
 <img src="presentation/assets/img/spa.png" width="100%">
 https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
+
 ---
 
 ## B. FaaS ならではの事例
