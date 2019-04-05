@@ -9,15 +9,13 @@
 
 ### 事例A-1 典型的な Web API の置き換え
 - 一般的なCRUD API
-<img src="presentation/assets/img/web_api.jpg" width="100%">
-https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
-
+<img src="presentation/assets/img/web_api.jpg" width="80%">
+source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 +++
 ### 事例A-2 SPA
 - S3のjsを押いて、lambdaを発火
 <img src="presentation/assets/img/spa.jpg" width="100%">
-https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
-
+source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 ---
 
 ## B. FaaS ならではの事例
@@ -26,14 +24,16 @@ Lift and **SHIFT**
 +++
 
 ### 事例 B-1. 非同期ジョブ
-- S3の画像アップロードされたら、リサイズや切り出しを実行
-<img src="presentation/assets/img/nikkei.png" width="100%">
-https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
+- 画像アップロード→リサイズや切り出し
+- 日経新聞の事例
+<img src="presentation/assets/img/nikkei.jpg" width="80%">
+source: [紙面ビューアーを刺させるサーバレスアーキテクチャ](https://speakerdeck.com/ikait/serverless-architecture-supports-nikkeis-paper-viewer)
 
 +++
 ### 事例 B-2 Webサイト監視
-- CloudWatchによる定期的なトリガーでヘルスチェックを実行
+- 定期的なトリガーでヘルスチェックを実行
 <img src="presentation/assets/img/monitoring.jpg" width="100%">
+source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
 +++
 
@@ -41,5 +41,10 @@ https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 - アラートをトリガーに電話を鳴らす
 <img src="presentation/assets/img/oncall.png" width="100%">
 https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
+source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
++++
 ### 事例 B-4 aibo
+- aiboはすべてサーバレス
+<img src="presentation/assets/img/aibo.jpg" width="80%">
+source: [aiboクラウドサービスを支えるサーバレス技術](https://speakerdeck.com/ryoheimorimoto/serverlessconf-tokyo-2018-aibo)
