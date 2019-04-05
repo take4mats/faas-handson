@@ -10,30 +10,40 @@
 
 +++
 
-## パターンA. 従来のシステムのサーバーレス化
+## A. 従来のシステムのサーバーレス化
 **LIFT** and Shift
 
 +++
 
-### 事例 A-1. 典型的な Web API の置き換え
-- APIGW, Lambda, DynamoDB
-<img src="presentation/assets/img/web_api.jpg" width="50%">
+### 事例A-1 典型的な Web API の置き換え
+- 一般的なCRUD API
+<img src="presentation/assets/img/web_api.jpeg" width="100%">
+https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
+
++++
+### 事例A-2 シングルページアプリケーション
+- APサーバを不要とするSPAの実現
+<img src="presentation/assets/img/spa.png" width="100%">
+https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
 ---
 
-## パターンB. FaaS ならではの事例
+## B. FaaS ならではの事例
 Lift and **SHIFT**
 
 +++
 
-### 事例 B-1. hoge
-- https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017 らへんから
-    - SPA
-    - 非同期ジョブ（S3にuploadされた動画、画像、CSVを加工するなど）
-    - 監視・通知（cloudwatch eventからトリガーされて電話やslack通知など）
-    - Azureの例
-    - Alexaのバックエンドとして
-    - lambda@edge
-        - 公式ドキュメントが「想定する使い方」をまとめてくれていて一番いいかも
-        - キャッシュヒット率を向上させるためのクエリパラメータの整列
-        - コンテンツベースの動的オリジンの選択
-        - とにかく cloudfront に計算機能を add-on するような感じ。
+### 事例 B-1. 非同期ジョブ
+- S3の画像アップロードされたら、リサイズや切り出しを実行
+<img src="presentation/assets/img/nikkei.png" width="100%">
+https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
+
++++
+### 事例 B-2 Webサイト監視
+- CloudWatchによる定期的なトリガーでヘルスチェックを実行
+<img src="presentation/assets/img/monitoring.jpg" width="100%">
+
+
+### 事例 B-3 オンコールシステム
+- アラートをトリガーに電話を鳴らす
+<img src="presentation/assets/img/oncall.png" width="100%">
+https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017
