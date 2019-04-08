@@ -3,10 +3,19 @@
 
 ## 手順
 - ec2にログイン
+
 - 試験ツールのディレwクトリに移動
     - `cd ~/gatling-charts-highcharts-bundle-2.3.0`
+
+- `user-files/simulations/handson.scala` の以下の部分を編集し、試験の向け先を自分の API に修正する
+    ```scala
+    val httpConf = http
+       .baseURL("https://3hgxd7x111.execute-api.ap-southeast-1.amazonaws.com/")  // ここ
+    ```
+
 - 試験ツール実行
     - `bash bin/gatling.sh -s HandsOnRequest`
+
 
 ## 試験結果の確認 (暫定)
 - 条件
