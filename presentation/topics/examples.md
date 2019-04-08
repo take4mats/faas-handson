@@ -2,48 +2,48 @@
 
 ---
 
-## A. 従来システムのサーバーレス化
+#### A. 従来システムのサーバーレス化
 **LIFT** and Shift
 
 +++
 
-### 事例A-1 典型的な Web API の置き換え
+#### 事例A-1 典型的な Web API の置き換え
 - 一般的なCRUD API
 <img src="presentation/assets/img/web_api.jpg" width="60%">
 source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 +++
-### 事例A-2 SPA
+#### 事例A-2 SPA
 - S3にhtml/jsを格納して、lambdaを発火
 <img src="presentation/assets/img/spa.jpg" width="100%">
 source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 ---
 
-## B. FaaS ならではの事例
+#### B. FaaS ならではの事例
 Lift and **SHIFT**
 
 +++
 
-### 事例 B-1. 非同期ジョブ
+#### 事例 B-1 非同期ジョブ
 - 日経新聞の事例
 - 画像アップロード→リサイズや切り出し
 <img src="presentation/assets/img/nikkei.jpg" width="60%">
 - source: [紙面ビューアーを刺させるサーバレスアーキテクチャ](https://speakerdeck.com/ikait/serverless-architecture-supports-nikkeis-paper-viewer)
 
 +++
-### 事例 B-2 Webサイト監視
+#### 事例 B-2 Webサイト監視
 - 定期的なトリガーでヘルスチェックを実行
 <img src="presentation/assets/img/monitoring.jpg" width="60%">
 - source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
 +++
 
-### 事例 B-3 オンコールシステム
+#### 事例 B-3 オンコールシステム
 - アラートをトリガーに電話を鳴らす
 <img src="presentation/assets/img/on_call.jpg" width="80%">
 - source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
 +++
-### 事例 B-4 aibo
+#### 事例 B-4 aibo
 - aiboはすべてサーバレス
 <img src="presentation/assets/img/aibo.jpg" width="60%">
 - source: [aiboクラウドサービスを支えるサーバレス技術](https://speakerdeck.com/ryoheimorimoto/serverlessconf-tokyo-2018-aibo)

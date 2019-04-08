@@ -1,4 +1,4 @@
-# サーバーレスとFaaS概要
+## サーバーレスとFaaS概要
 
 +++
 
@@ -12,13 +12,13 @@
 
 +++
 
-## Serverless と FaaS の関係性
+### Serverless と FaaS の関係性
 
 <img src="presentation/assets/img/serverless_and_faas.png" width="50%">
 
 +++
 
-## On-prem/IaaS/CaaS/PaaS/FaaS
+#### On-prem/IaaS/CaaS/PaaS/FaaS
 
 <img src="presentation/assets/img/faas_comparison.png" width="50%">
 
