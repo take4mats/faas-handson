@@ -6,11 +6,11 @@
 - 試験ツールのディレwクトリに移動
     - `cd ~/gatling-charts-highcharts-bundle-2.3.0`
 - 試験ツール実行
-    - `bash bin/gatling.sh -s HandsOnReiquest`
+    - `bash bin/gatling.sh -s HandsOnRequest`
 
 ## 試験結果の確認 (暫定)
 - 条件
-    - 試験結果がすべて `OK` で、 `OK` (=NGの意味) が無いこと
+    - 試験結果がすべて `OK` で、 `KO` (=NGの意味) が無いこと
 
 - 出力サンプル: 以下のような標準出力から OK そうか確認してください。 (web server からレポートも確認できるが、いまはNW的に許可していない。手元に html file を scp して見てもらっても構わない)
     ```
@@ -29,7 +29,7 @@
             waiting: 0      / active: 0      / done:1
     ================================================================================
 
-    Simulation computerdatabase.HandsOnReiquest completed in 60 seconds
+    Simulation computerdatabase.HandsOnRequest completed in 60 seconds
     Parsing log file(s)...
     Parsing log file(s) done
     Generating reports...
@@ -54,12 +54,11 @@
     ================================================================================
 
     Reports generated in 1s.
-    Please open the following file: /home/ec2-user/gatling-charts-highcharts-bundle-2.3.0/results/handsonreiquest-1554688411952/index.html
+    Please open the following file: /home/ec2-user/gatling-charts-highcharts-bundle-2.3.0/results/handsonrequest-1554688411952/index.html
     ```
 
-## NG がある場合
-- スーパーエンジニアなら解決できるよね
-- ログ見たりいろいろして対処して、OK担ったら教えてください。
+## KO がある場合 (= エラーが有る)
+- ログ見たりいろいろして対処して、OK になったら教えてください。
 
 ## 更新予定
 - 結果が slack 通知されたり dashboard 表示されたり
