@@ -63,6 +63,14 @@
 （完全おまけコンテンツかな）
 
 - java 1.8 以上をインストール
+- 初回は dynamodb-local のインストールも必要
+    ```sh
+    # install dynamodb-local
+    sls dynamodb install --profile <your_profile_name> --stage <your_profile_name> --region <our_region_name>
+    # もし何かの都合でやり直したい場合、 remove dynamodb-local
+    sls dynamodb remove --profile <your_profile_name> --stage <your_profile_name> --region <our_region_name>
+    ```
+
 - execute sls offline
     ```sh
     $ sls offline start --profile <your_profile_name> --stage <your_profile_name> --region <our_region_name>
