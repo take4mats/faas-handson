@@ -1,4 +1,5 @@
 ### Serverless Framework でローカルからAWSにデプロイする場合
+今までWebコンソールで苦労していたものが、一発で設定・デプロイ出来ます。 Infrastructure as Code!
 
 - ここでディレクトリとファイル解説
     ```
@@ -6,13 +7,12 @@
     ├── README.md  # このファイル！
     ├── lambda_handler.py  # lambda function がトリガーされた時に最初に読まれるファイル
     ├── package.json  # sls自体が node.js 製なので必要なライブラリを
-    ├── node_modules/  # node.js ライブラリの入る場所
+    ├── node_modules/  # node.js ライブラリの入る場所 (serverless framework 自身は node.js 製)
     ├── serverless.yml  # deploy等に必要な設定ファイル（これが sls のキモ）
     ├── migrations/  # 応用編のための
     ├── src/
     │   └── todo.py  # コアのロジックを書いたファイル（あんまり分離するボリュームじゃなかった）
-    └── tests/
-        └── test_sls_offline.py  # 応用編のためのテストコード
+    └── rf/  # robot framework でのテスト
     ```
 
 - デプロイ
@@ -58,7 +58,7 @@
 - tips: デプロイでエラーが出たら `export SLS_DEBUG='*'` してデバッグメッセージを出す。 消すときは `export SLS_DEBUG=''`
 
 
-### Serverless Framework でローカルでテストする
+### おまけ: Serverless Framework でローカルでテスト環境を立てる
 ローカルでのテストも頑張ってみたい場合は、読んでね。ローカルに apigw, lambda, dynamodb をエミュレートして TDD できるお
 （完全おまけコンテンツかな）
 
@@ -67,3 +67,13 @@
     ```sh
     $ sls offline start --profile <your_profile_name> --stage <your_profile_name> --region <our_region_name>
     ```
+
+- これで、 http://127.0.0.1:3000 の配下に API のエンドポイントが生成され、裏ではlambda, dynamodb もエミュレートされる。
+- テスト方法は省略。
+    - 単体テスト: ちょっとどこに対してやるのか難しいところ。 src/todo.py に対してテストを書くなどが現実的か。 lambda handler を直接叩くテストは結構難しい（event, contextを完全に再現することが難しい）
+    - 結合テスト: API に対するテストをするのが良い。 robot framework 等
+        ```sh
+        cd rf/1_sls_local/
+        robot main.robot
+        ```
+
