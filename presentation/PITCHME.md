@@ -22,7 +22,7 @@ Function as a Service
 
 ---?include=presentation/topics/handson_sls.md
 
----?include=presentation/topics/handson_troubleshooting.md
+---?include=presentation/topics/handson_challenge.md
 
 ---?include=presentation/topics/reference.md
 
