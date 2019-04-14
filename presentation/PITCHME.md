@@ -10,23 +10,23 @@ Function as a Service
 
 [george](https://github.com/take4mats/), [yoshiya](), [yi]()
 
----?include=presentation/topics/intro.md
+---?include=presentation/slides/intro.md
 
----?include=presentation/topics/lecture_faas.md
+---?include=presentation/slides/lecture_faas.md
 
----?include=presentation/topics/examples.md
+---?include=presentation/slides/examples.md
 
----?include=presentation/topics/handson_intro.md
+---?include=presentation/slides/handson_intro.md
 
----?include=presentation/topics/handson_web.md
+---?include=presentation/slides/handson_web.md
 
----?include=presentation/topics/handson_sls.md
+---?include=presentation/slides/handson_sls.md
 
----?include=presentation/topics/handson_challenge.md
+---?include=presentation/slides/handson_challenge.md
 
----?include=presentation/topics/reference.md
+---?include=presentation/slides/reference.md
 
----?include=presentation/topics/closing.md
+---?include=presentation/slides/closing.md
 
 ---
 

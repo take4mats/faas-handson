@@ -3,4 +3,4 @@
 +++
 
 slackに張ったURL/ログイン情報を参照
-https://github.com/take4mats/faas-handson/blob/master/presentation/webconsole.md
+https://github.com/take4mats/faas-handson/blob/master/presentation/docs/webconsole.md

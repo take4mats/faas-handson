@@ -14,4 +14,4 @@
 +++
 
 slackに張ったURLを参照
-https://github.com/take4mats/faas-handson/blob/master/presentation/sls.md
+https://github.com/take4mats/faas-handson/blob/master/presentation/docs/sls.md
