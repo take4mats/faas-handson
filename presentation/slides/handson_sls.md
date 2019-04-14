@@ -11,7 +11,7 @@ Serverless Framework で、 AWS をコードで管理しよう！
 
 #### システム構成
 
-![handson_sls](presentation/assets/img/handson_sls.jpg)
+![handson_sls](presentation/assets/img/handson_sls.png)
 
 +++
 

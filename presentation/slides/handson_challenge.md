@@ -20,14 +20,15 @@
 
 #### チャレンジ概要
 
-![handson_challenge](presentation/assets/img/handson_challenge.jpg)
+![handson_challenge](presentation/assets/img/handson_challenge.png)
 
 負荷試験ツール (Gatling) でシステムに負荷をかけ、無事に試験を突破せよ。
 
-+++?image=presentation/assets/img/gatling.png&opaticy=40
++++
 
 ## Gatling とは
 
+![gatling](presentation/assets/img/gatling.png)
 
 +++
 

@@ -28,8 +28,6 @@ Function as a Service
 
 ---?include=presentation/slides/handson_challenge.md
 
----?include=presentation/slides/reference.md
-
 ---?include=presentation/slides/closing.md
 
 ---
