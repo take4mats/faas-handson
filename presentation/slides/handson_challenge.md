@@ -18,13 +18,9 @@
 
 +++
 
-@snap[top]
 チャレンジ概要: 負荷試験ツール (Gatling) でシステムに負荷をかけ、無事に試験を突破せよ。
-@snapend
 
-@snap[bottom]
 ![handson_challenge](presentation/assets/img/handson_challenge.png)
-@snapend
 
 +++
 
