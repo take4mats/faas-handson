@@ -29,16 +29,13 @@ TODO リストアプリを作ろう！
 
 +++
 
-@div[left-50]
-![ハードルが高すぎるKPIを要求する大手広告代理店](https://www.pakutaso.com/shared/img/thumb/YOTA85_husaiyou215135819_TP_V.jpg)
-@divend
-
-@div[right-50]
 早速だけど、君にある商用Webアプリの開発・運用を任せるよ。
+
+![ハードルが高すぎるKPIを要求する大手広告代理店](https://www.pakutaso.com/shared/img/thumb/YOTA85_husaiyou215135819_TP_V.jpg)
+
 シンプルな Todo アプリで、簡単だから大丈夫だよ。
 
 今日中によろしくね！
-@divend
 
 +++
 
