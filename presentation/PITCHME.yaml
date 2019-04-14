@@ -12,3 +12,5 @@ slide-number: true
 
 #ページ遷移アニメーション (noneが安全？)
 transition: convex
+
+layout: top

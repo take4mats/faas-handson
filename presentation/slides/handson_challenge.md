@@ -16,7 +16,7 @@
 
 …と、いうことで、負荷テストにチャレンジ。
 
-+++?image=presentation/assets/img/handson_challenge.png&size=50% 50%&position=bottom
++++?image=presentation/assets/img/handson_challenge.png&size=auto 50%&position=bottom
 
 ### チャレンジ概要
 負荷試験ツール (Gatling) でシステムに負荷をかけ、無事に試験を突破せよ。
