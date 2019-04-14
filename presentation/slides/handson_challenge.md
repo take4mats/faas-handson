@@ -18,7 +18,7 @@
 
 +++
 
-チャレンジ概要: 負荷試験ツール (Gatling) でシステムに負荷をかけ、無事に試験を突破せよ。
+負荷試験ツール (Gatling) でシステムに負荷をかけ、テストを突破せよ。
 
 ![handson_challenge](presentation/assets/img/handson_challenge.png)
 
@@ -41,7 +41,7 @@
 - git: https://github.com/gatling/gatling
 - 有償版もありますが、無償版でも十分使えます
 - Jmeter なんて使ってる人には激しく柔軟に見えるツール
-- @ulend
+@ulend
 @divend
 
 +++

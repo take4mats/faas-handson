@@ -19,13 +19,13 @@ TODO リストアプリを作ろう！
 
 +++
 
-@div[left-50]
+@snap[west]
 ![握手を求める営業部長](https://www.pakutaso.com/shared/img/thumb/YOTA82_akusyuwomotomeru15123614_TP_V.jpg)
-@divend
+@snapend
 
-@div[right-50]
+@snap[east]
 お、ねえねえそこの君！今日からこの部署に配属だって？ようこそ！
-@divend
+@snapend
 
 +++
 
