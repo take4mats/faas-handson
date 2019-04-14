@@ -26,7 +26,7 @@
 
 ## Gatling とは
 
-![gatling](https://gatling.io/wp-content/uploads/2018/03/gatling.png&size=80%)
+![gatling](https://gatling.io/wp-content/uploads/2018/03/gatling.png)
 
 +++
 
@@ -35,13 +35,11 @@
 @divend
 
 @div[right-50]
-@ul[darken]
 - Scala でシナリオを書く web や API の負荷試験ツールです
 - 公式: https://gatling.io/　
 - git: https://github.com/gatling/gatling
 - 有償版もありますが、無償版でも十分使えます
 - Jmeter なんて使ってる人には激しく柔軟に見えるツール
-@ulend
 @divend
 
 +++
