@@ -2,7 +2,7 @@
 
 +++
 
-![yotaka_challenge](https://www.pakutaso.com/shared/img/thumb/YOTA82_yossya15122540_TP_V.jpg)
+![「はいドーン！」と煽る部長](https://www.pakutaso.com/shared/img/thumb/yotakaGJ0933_TP_V.jpg)
 
 +++
 
@@ -42,6 +42,7 @@
 - git: https://github.com/gatling/gatling
 - 有償版もありますが、無償版でも十分使えます
 - Jmeter なんて使ってる人には激しく柔軟に見えるツール
+@divend
 
 +++
 

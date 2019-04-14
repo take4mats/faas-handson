@@ -8,7 +8,7 @@ TODOリストアプリを作ろう！
 
 +++
 
-#### API仕様
+### API仕様
 
 | Interface | Method | Path        |
 |-----------|--------|-------------|
@@ -17,6 +17,8 @@ TODOリストアプリを作ろう！
 | 作成      | POST   | /tasks      |
 | 編集      | PUT    | /tasks/{id} |
 | 削除      | DELETE | /tasks/{id} |
+
++++
 
 詳しくは、slackに張っている URL をクリック
 https://github.com/take4mats/faas-handson/blob/master/presentation/docs/app_intro.md
