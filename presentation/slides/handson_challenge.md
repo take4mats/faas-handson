@@ -32,17 +32,15 @@
 
 +++
 
-@div[left-50]
+@snap[west]
 ![gatling_report](presentation/assets/img/gatling_report.png)
-@divend
 
-@div[right-50]
+@snap[east] @ul
 - Scala でシナリオを書く web や API の負荷試験ツールです
 - 公式: https://gatling.io/　
 - git: https://github.com/gatling/gatling
 - 有償版もありますが、無償版でも十分使えます
 - Jmeter なんて使ってる人には激しく柔軟に見えるツール
-@divend
 
 +++
 
