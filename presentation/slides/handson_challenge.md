@@ -16,10 +16,12 @@
 
 …と、いうことで、負荷テストにチャレンジ。
 
-+++?image=presentation/assets/img/handson_challenge.png&size=auto 50%&position=bottom
++++
 
-### チャレンジ概要
+#### チャレンジ概要
 負荷試験ツール (Gatling) でシステムに負荷をかけ、無事に試験を突破せよ。
+
+![handson_challenge](presentation/assets/img/handson_challenge.png)
 
 +++
 
@@ -27,14 +29,14 @@
 
 ![gatling](https://gatling.io/wp-content/uploads/2018/03/gatling.png)
 
-+++?color=black
++++
 
 @div[left-50]
 ![gatling_report](presentation/assets/img/gatling_report.png)
 @divend
 
 @div[right-50]
-@ul[brighten]
+@ul[darken]
 - Scala でシナリオを書く web や API の負荷試験ツールです
 - 公式: https://gatling.io/　
 - git: https://github.com/gatling/gatling
