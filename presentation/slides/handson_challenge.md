@@ -18,9 +18,13 @@
 
 +++
 
+@snap[top]
 チャレンジ概要: 負荷試験ツール (Gatling) でシステムに負荷をかけ、無事に試験を突破せよ。
+@snapend
 
+@snap[bottom]
 ![handson_challenge](presentation/assets/img/handson_challenge.png)
+@snapend
 
 +++
 
@@ -30,17 +34,17 @@
 
 +++
 
-@div[left-50]
+@snap[west]
 ![gatling_report](presentation/assets/img/gatling_report.png)
-@divend
+@snapend
 
-@div[right-50]
+@snap[east]
 - Scala でシナリオを書く web や API の負荷試験ツールです
 - 公式: https://gatling.io/　
 - git: https://github.com/gatling/gatling
 - 有償版もありますが、無償版でも十分使えます
 - Jmeter なんて使ってる人には激しく柔軟に見えるツール
-@divend
+@snapend
 
 +++
 
