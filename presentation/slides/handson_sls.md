@@ -20,7 +20,7 @@ Serverless Framework で、 AWS をコードで管理しよう！
 +++
 
 @div[left-50]
-![sls](presentation/assets/img/sls.jpg)
+![sls](presentation/assets/img/sls.png)
 @divend
 
 @div[right-50]
