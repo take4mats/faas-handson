@@ -1,17 +1,36 @@
-## slsからのデプロイ
+## Part 2 - Infrastructure as Code 編
+↓
 
 +++
 
-おすすめのデプロイツール: Serverless Framework
-- [Serverless Framework の書き方](https://serverless.com/framework/docs/providers/aws/)
-- .aws/credentials: faasXX でキーを保存
-- コマンド:
-    - DynamoDB Local のインストール: `sls dynamodb install`
-    - DynamoDB Local の起動: `sls dynamodb start --profile faasXX`
-    - serverless offline の起動: `sls offline --profile faasXX` (dynamodb start も包含)
-    - deploy: `sls deploy --profile studentXX`
+Serverless Framework で、 AWS をコードで管理しよう！
+
+（Web コンソールには一切触れません）
 
 +++
 
-slackに張ったURLを参照
+#### システム構成
+
+![handson_sls](presentation/assets/img/handson_sls.jpg)
+
++++
+
+## Serverless Framework とは
+
++++
+
+@div[left-50]
+![sls](presentation/assets/img/sls.jpg)
+@divend
+
+@div[right-50]
+- 多様な serverless のサービスをコード管理・開発できる OSS フレームワーク
+- yaml ファイルに構成を定義し、コマンド一発でデプロイ
+- ローカルでのテストも支援できるプラグインがあり、 TDD も可能
+
++++
+
+## Let's Try!
+
+構築ガイド: slackに張っている URL をクリック
 https://github.com/take4mats/faas-handson/blob/master/presentation/docs/sls.md

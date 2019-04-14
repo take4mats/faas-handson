@@ -22,7 +22,7 @@ Hello, I'm gonna tell you about `serverless` and `FaaS` today.
     - webコンソールから 1h
     - (1200-1300 昼休み)
     - sls から 1h
-    - トラシュー 2h
+    - チャレンジ 2h
 - 1600 ハンズオン終了
 - 1600-1730 振り返り、業務紹介、QA
 

@@ -1,4 +1,5 @@
-## サーバーレスとFaaS概要
+# Serverless, FaaS 概要
+↓
 
 +++
 
@@ -27,6 +28,7 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 +++
 
 ## FaaS とは？
+
 - 関数をコードで定義するだけ
 - 使用した分だけ課金される
 - イベントドリブン

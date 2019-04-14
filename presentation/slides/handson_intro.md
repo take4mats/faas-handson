@@ -1,4 +1,5 @@
-## ハンズオン
+# ハンズオン
+↓
 
 +++
 
@@ -7,24 +8,15 @@ TODOリストアプリを作ろう！
 
 +++
 
-### 以下のAPI仕様に基づいて作れ
+#### API仕様
 
-+++
+| Interface | Method | Path        |
+|-----------|--------|-------------|
+| 一覧参照  | GET    | /tasks      |
+| 参照      | GET    | /tasks/{id} |
+| 作成      | POST   | /tasks      |
+| 編集      | PUT    | /tasks/{id} |
+| 削除      | DELETE | /tasks/{id} |
 
-## システム構成
-
-- AWS 上に全て構築
-    - アプリの配置/構成
-        ```
-               /-- frontend on S3 (or on localhost)
-        client
-               \-- API Gateway -- Lambda -- DynamoDB
-
-                        (CloudWatch)
-        ```
-    - DNS, SSL/TLS cert: API-Gateway のネイティブなやつでご勘弁を
-
-+++
-
-詳しくは、slackに張っているURLをクリック
+詳しくは、slackに張っている URL をクリック
 https://github.com/take4mats/faas-handson/blob/master/presentation/docs/app_intro.md
