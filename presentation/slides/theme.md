@@ -19,23 +19,26 @@ TODO リストアプリを作ろう！
 
 +++
 
-@snap[west]
+@div[left-50]
 ![握手を求める営業部長](https://www.pakutaso.com/shared/img/thumb/YOTA82_akusyuwomotomeru15123614_TP_V.jpg)
-@snapend
+@divend
 
-@snap[east]
+@div[right-50]
 お、ねえねえそこの君！今日からこの部署に配属だって？ようこそ！
-@snapend
+@divend
 
 +++
 
-早速だけど、君にある商用Webアプリの開発・運用を任せるよ。
-
+@div[left-50]
 ![ハードルが高すぎるKPIを要求する大手広告代理店](https://www.pakutaso.com/shared/img/thumb/YOTA85_husaiyou215135819_TP_V.jpg)
+@divend
 
+@div[right-50]
+早速だけど、君にある商用Webアプリの開発・運用を任せるよ。
 シンプルな Todo アプリで、簡単だから大丈夫だよ。
 
 今日中によろしくね！
+@divend
 
 +++
 
