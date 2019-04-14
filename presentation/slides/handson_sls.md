@@ -24,9 +24,11 @@ Serverless Framework で、 AWS をコードで管理しよう！
 @divend
 
 @div[right-50]
+@ul[](false)
 - 多様な serverless のサービスをコード管理・開発できる OSS フレームワーク
 - yaml ファイルに構成を定義し、コマンド一発でデプロイ
 - ローカルでのテストも支援できるプラグインがあり、 TDD も可能
+@ulend
 @divend
 
 +++
