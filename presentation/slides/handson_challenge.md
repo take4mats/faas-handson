@@ -16,9 +16,9 @@
 
 …と、いうことで、負荷テストにチャレンジ。
 
-+++?image=presentation/assets/img/handson_challenge.png&size=auto auto&position=center
++++?image=presentation/assets/img/handson_challenge.png&size=50% 50%&position=bottom
 
-#### チャレンジ概要
+### チャレンジ概要
 負荷試験ツール (Gatling) でシステムに負荷をかけ、無事に試験を突破せよ。
 
 +++
@@ -27,7 +27,7 @@
 
 ![gatling](https://gatling.io/wp-content/uploads/2018/03/gatling.png)
 
-+++
++++?color=black
 
 @div[left-50]
 ![gatling_report](presentation/assets/img/gatling_report.png)
