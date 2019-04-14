@@ -27,7 +27,7 @@
 
 ## Gatling とは
 
-![gatling](https://gatling.io/wp-content/uploads/2018/03/gatling.png)
+![gatling](https://gatling.io/wp-content/uploads/2018/03/gatling.png&size=80%)
 
 +++
 
