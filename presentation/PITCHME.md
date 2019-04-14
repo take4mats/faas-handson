@@ -12,7 +12,7 @@ Function as a Service
 
 ---?include=presentation/slides/intro.md
 
----?include=presentation/slides/adenda.md
+---?include=presentation/slides/agenda.md
 
 ---?include=presentation/slides/theme.md
 
