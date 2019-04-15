@@ -38,6 +38,8 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 - 使った分だけの従量課金
 - 2012年1月サービス開始
 
++++
+
 <img src="presentation/assets/img/cloudwatch.png" width="50%">
 ### Amazon CloudWatch
 - AWSリソースの死活/性能/ログ監視
@@ -46,13 +48,18 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 - 使った分だけの従量課金
 - 2009年5月サービス開始
 
++++
+
+#### 主要4社比較
+<img src="presentation/assets/img/faas4.png" width="50%">
+
++++
+
 #### システム構成
 
 <img src="presentation/assets/img/handson_web.png" width="80%">
 
-+++
 
-####
 +++
 
 ## Let's Try!
