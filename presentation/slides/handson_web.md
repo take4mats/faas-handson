@@ -51,7 +51,7 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 +++
 
 #### (参考)主要4社比較
-<img src="presentation/assets/img/faas4.png" width="50%">
+<img src="presentation/assets/img/faas4.png" width="80%">
 
 +++
 
