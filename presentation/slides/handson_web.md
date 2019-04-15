@@ -8,7 +8,7 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 
 #### システム構成
 
-![handson_web](presentation/assets/img/handson_web.png)
+<img src="presentation/assets/img/handson_web.png" width="80%">
 
 +++
 

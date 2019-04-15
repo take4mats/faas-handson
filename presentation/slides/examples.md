@@ -10,7 +10,7 @@
 
 #### 事例A-1 典型的な Web API の置き換え
 
-- 一般的なCRUD API
+##### 一般的なCRUD API
 
 <img src="presentation/assets/img/web_api.jpg" width="50%">
 
@@ -36,8 +36,7 @@ Lift and **SHIFT**
 
 #### 事例 B-1 非同期ジョブ
 
-##### 日経新聞の事例
-##### 画像アップロード→リサイズや切り出し
+- 画像アップロード→リサイズや切り出し
 
 <img src="presentation/assets/img/nikkei.jpg" width="60%">
 
