@@ -27,18 +27,11 @@ Hello, I'm gonna tell you about `serverless` and `FaaS` today.
 - 1630-1730: 5日間の振り返り？, 例の 15min work
 
 ## 講義内容
-講義担当 **伊藤**, sub: 松田 etc.
 - 自己紹介
 - サーバーレス、FaaSとは
 - オンプレからSaaSまでの比較
 - 代表的なサービス事例: lambda, azurefunction, gcf
 - 事例 (外部イベントとかで見てきた事例など)
-    - パターン
-        - 従来のシステムのサーバーレス化
-        - 全く違う発想の、FaaSだからこそできるような事例
-    - 事例
-        - aiboとか良いよね
-        - 動画、画像のエンコード (いろんな画質で動画が見られるのは売れでこんなものがあるからだよ、など)
 
 ## ハンズオン内容
 - 1. Webコンソールから作る
@@ -46,16 +39,14 @@ Hello, I'm gonna tell you about `serverless` and `FaaS` today.
     - apigw は指示通り作ってもらう
     - dynamodb も指示通り
     - 動作確認
-        - curl や frontend で動作確認してもらう
 
 - 2. slsから作る
     - なにかwebコンソールで作ったものにプラスする？（or 負荷試験対応のみでも）
     - slsが動作する踏み台サーバ40台
     - ポチっとデプロイ
     - 動作確認
-        - curl か frontend で動作確認してもらう
 
 - 3. 負荷をかけてみる
-    - 負荷試験の話 (gatling) スライドを挟もう **松田**
+    - 負荷試験の話 (gatling) スライドを挟もう
     - gatlingで負荷かてみる
     - 何が悪いか考えてみてくれ
