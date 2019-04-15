@@ -10,7 +10,7 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 
 +++
 
-<img src="presentation/assets/img/lambda.png" width="10%">
+<img src="presentation/assets/img/lambda.png" width="20%">
 ### AWS Lambda
 - 言わずと知れたKing of FaaS
 - イベントドリブン(非常駐型)でコードを実行
@@ -20,7 +20,7 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 
 +++
 
-<img src="presentation/assets/img/apigw.png" width="10%">
+<img src="presentation/assets/img/apigw.png" width="20%">
 ### Amazon API Gateway
 - API作成/管理サービス
 - 流量制限や認証などを行う
@@ -30,7 +30,7 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 
 +++
 
-<img src="presentation/assets/img/dynamodb.png" width="10%">
+<img src="presentation/assets/img/dynamodb.png" width="20%">
 ### Amazon DynamoDB
 - マネージドなNoSQLデータベース
 - データは3か所のAZに保存
@@ -40,7 +40,7 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 
 +++
 
-<img src="presentation/assets/img/cloudwatch.png" width="10%">
+<img src="presentation/assets/img/cloudwatch.png" width="20%">
 ### Amazon CloudWatch
 - AWSリソースの死活/性能/ログ監視
 - 取得メトリックをグラフ化
@@ -50,7 +50,7 @@ AWS の Web コンソールを使って サーバーレスなシステムを構�
 
 +++
 
-#### 主要4社比較
+#### (参考)主要4社比較
 <img src="presentation/assets/img/faas4.png" width="50%">
 
 +++
