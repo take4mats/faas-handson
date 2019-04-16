@@ -91,11 +91,11 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 
 +++
 #### メテオフォール型開発
-<img src="presentation/assets/img/meteo.jpg" width="80%">
+<img src="presentation/assets/img/meteo.jpg" width="60%">
 
 +++
 #### そして、こうなる
-<img src="presentation/assets/img/meteo2.jpg" width="80%">
+<img src="presentation/assets/img/meteo2.jpg" width="60%">
 
 +++
 ### アジャイル開発
@@ -103,7 +103,7 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 
 +++
 ### 神の前では無力である
-<img src="presentation/assets/img/meteo3.jpg" width="80%">
+<img src="presentation/assets/img/meteo3.jpg" width="60%">
 
 +++
 ### 有効な手段
