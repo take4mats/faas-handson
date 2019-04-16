@@ -81,3 +81,71 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 
 #### (参考)主要4社比較
 <img src="presentation/assets/img/faas4.png" width="80%">
+
++++
+以下、小ネタ
+
++++
+#### ウォータフォール型開発
+<img src="presentation/assets/img/water.jpg" width="100%">
+
++++
+#### メテオフォール型開発
+<img src="presentation/assets/img/meteo.jpg" width="100%">
+
++++
+#### そして、こうなる
+<img src="presentation/assets/img/meteo2.jpg" width="100%">
+
++++
+### アジャイル開発
+<img src="presentation/assets/img/ajail.jpg" width="100%">
+
++++
+### 神の前では無力である
+<img src="presentation/assets/img/meteo3.jpg" width="100%">
+
++++
+### 有効な手段
+<img src="presentation/assets/img/serverless.png" width="100%">
+
++++
+### 短期間での開発を要求された
+- 従来の開発
+  - 開発環境の構築などが必要
+
+- サーバレス開発
+  - 開発環境は不要
+  - Function単位で実装が可能 → 複数人で進めやすい
+
+
++++
+### 度々発生する仕様変更
+- 従来の開発
+  - 密結合のために全体へ影響
+  - ランタイム環境などの変更の可能性がある
+
+- サーバレス開発
+  - 疎結合で変更への影響が少ない
+  - 変更の場合、function単位で変更が可能
+  - 新規追加の場合、functionをただ追加するだけ
+  - function単位に環境設定が可能
+
+
++++
+### 予測不可能なトラフィック
+- 従来の開発
+  - 売れる前提で事前にリソースを確保
+  - 停電等により想定していない負荷がかかり、サービスダウン
+
+- サーバレス開発
+  - オートスケールされる
+  - 利用した分の支払い
+
++++
+## メテオフォール型開発にはサーバレスが正義
+
++++
+#### 参考
+http://eiki.hatenablog.jp/entry/meteo_fall
+https://www.slideshare.net/ssuser084061/x-117338837
