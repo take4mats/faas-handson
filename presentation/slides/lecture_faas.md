@@ -87,15 +87,15 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 
 +++
 #### ウォータフォール型開発
-<img src="presentation/assets/img/water.jpg" width="100%">
+<img src="presentation/assets/img/water.jpg" width="80%">
 
 +++
 #### メテオフォール型開発
-<img src="presentation/assets/img/meteo.jpg" width="100%">
+<img src="presentation/assets/img/meteo.jpg" width="80%">
 
 +++
 #### そして、こうなる
-<img src="presentation/assets/img/meteo2.jpg" width="100%">
+<img src="presentation/assets/img/meteo2.jpg" width="80%">
 
 +++
 ### アジャイル開発
@@ -103,7 +103,7 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 
 +++
 ### 神の前では無力である
-<img src="presentation/assets/img/meteo3.jpg" width="100%">
+<img src="presentation/assets/img/meteo3.jpg" width="80%">
 
 +++
 ### 有効な手段
@@ -143,7 +143,7 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
   - 利用した分の支払い
 
 +++
-## メテオフォール型開発にはサーバレスが正義
+## メテオフォール型開発には サーバレスが正義
 
 +++
 #### 参考
