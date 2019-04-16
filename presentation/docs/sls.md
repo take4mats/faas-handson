@@ -1,6 +1,13 @@
 ### Serverless Framework でローカルからAWSにデプロイする場合
 今までWebコンソールで苦労していたものが、一発で設定・デプロイ出来ます。 Infrastructure as Code!
 
+- 重要な環境の情報
+    ```
+    profile: faasXX (XX 部分は自分の番号を確認)
+    stage  : faasXX-sls (XX 部分は自分の番号を確認)
+    region : ap-southeast-1 (全員共通
+    ```
+
 - ここでディレクトリとファイル解説
     ```
     backend/
@@ -17,11 +24,13 @@
 
 - デプロイ
     ```sh
-    $ sls deploy --profile <your_profile_name> --stage <your_profile_name> --region <our_region_name>
+    $ cd ~/2019nttcomtraining/faas/application/backend
+    $ sls deploy --profile faasXX --stage faasXX-sls --region ap-southeast1
+      # パラメータは各自の環境に合わせて変更してね！
     ```
 
-- 出力例 ( profile_name: `t12-george`, region_name: `ap-southeast-1`, 解説を `# foobar` で )
-    ```
+- 出力例 ( profile & stage: `t12-george`, region: `ap-southeast-1`, 解説を `# foobar` で )
+    ```sh
     george@gpro2016.local$ cd 2019nttcomtraining/faas/application/backend
     george@gpro2016.local$ sls deploy --profile t12-george  # 実行！
     Serverless: Packaging service...
@@ -57,10 +66,12 @@
 
 - tips: デプロイでエラーが出たら `export SLS_DEBUG='*'` してデバッグメッセージを出す。 消すときは `export SLS_DEBUG=''`
 
+- 動作確認の方法
+    - postman/curl など API 自身を叩く
+    - frontend アプリも動きます。
 
-### おまけ: Serverless Framework でローカルでテスト環境を立てる
-ローカルでのテストも頑張ってみたい場合は、読んでね。ローカルに apigw, lambda, dynamodb をエミュレートして TDD できるお
-（完全おまけコンテンツかな）
+### おまけ: Serverless Framework でローカルでテスト環境を立てる（ハンズオン範囲外）
+ローカルでのテストも頑張ってみたい場合は、読んでね。ローカルに apigw, lambda, dynamodb をエミュレートして TDD できるお（完全おまけコンテンツ）
 
 - java 1.8 以上をインストール
 - 初回は dynamodb-local のインストールも必要

@@ -1,25 +1,26 @@
 ### AWS コンソールでひとつずつセットアップする場合
 #### 前提
-  - リージョンは`アジアパシフィック(シンガポール)`
+  - リージョン
+    - 名称: `アジアパシフィック(シンガポール)`, ID: `ap-southeast-1`
     - 間違いやすいので注意
 
 #### dynamoDB
 - サービス -> dynamoDB -> テーブルの作成
-    - テーブル名: `todo-table-faasXX-gui`
+    - テーブル名: `todo-table-faasXX-gui` (XX 部分は自分の番号を確認)
     - パーティションキー: `id`
     - 右下の`作成`をクリック
 
 #### lambda
 - サービス -> lambda -> 関数の作成
     - 一から作成
-    - 関数名: `todo-function-faasXX-gui`
+    - 関数名: `todo-function-faasXX-gui` (XX 部分は自分の番号を確認)
     - ランタイム: `python3.6`
     - アクセス権限
       - 実行ロール: `基本的なlambdaアクセス権限で新しいロールを作成`
     - 右下の`関数の作成`をクリック
 - Designerの`todo-function-faasXX-gui`をクリック
     - 関数コード -> コードエントリータイプ: `Amzaon S3からのファイルのアップロード`
-        - Amazon S3 のリンク URL:  `https://s3-ap-southeast-1.amazonaws.com/todo-backend-application/todo.zip`
+        - Amazon S3 のリンク URL: `https://s3-ap-southeast-1.amazonaws.com/todo-backend-application/todo.zip`
         - ランタイム: `python3.6`
         - ハンドラ: `lambda_handler.lambda_handler`
     - 環境変数
@@ -37,7 +38,7 @@
         - Choose the protocol: `REST`
         - 新しいAPIの作成: `新しいAPI`
         - 名前と説明
-            - API名: `todo-api-faasXX-gui`
+            - API名: `todo-api-faasXX-gui` (XX 部分は自分の番号を確認)
             - 説明: `適当にどうぞ`
             - エンドポイントタイプ: `エッジ最適化`
         - 右下の`作成`をクリック
@@ -99,4 +100,6 @@
       - ``変更を保存``をクリック
     - ステージをクリックし、表示されるURLがエンドポイント
 
-- postman/curlなんでもいいから動作を試してみて
+- 動作確認の方法
+    - postman/curl など API 自身を叩く
+    - frontend アプリも動きます。

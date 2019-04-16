@@ -1,26 +1,47 @@
 # スコアを競ってみよう！
-負荷試験をして、全部通れば終わりです。
 
-## 手順
-- ec2にログイン
+## レギュレーション
+- 合格条件
+    ```
+    Gatling で負荷をかけて、全部通れば終わりです。
+    ```
+- 確認方法
+    ```
+    cli の gatling 実行結果
+    dashboard
+    ```
+- 触っていいもの・いけないもの
+    ```
+    触っていいもの:
+      自分が serverless framework でデプロイしたコンポーネント
+      (API Gateway, Lambda, DynamoDB, CloudWatch)
+      gatling の ターゲットURL の指定
+    触ってはいけないもの:
+      IAMの設定,
+      EC2の設定,
+      他人のコンポーネント（壊すと楽しいよ）,
+      他のリージョン（たまにオハイオ好きな人いるよね）,
+      gatling の設定（ターゲットURLを除く以外）
+    ```
 
-- 試験ツールのディレwクトリに移動
-    - `cd ~/gatling-charts-highcharts-bundle-2.3.0`
+## 実施手順
+- 各自のec2インスタンスにログイン
 
-- `user-files/simulations/handson.scala` の以下の部分を編集し、試験の向け先を自分の API に修正する
+- 試験ツールのディレクトリに移動
+    ```sh
+    $ cd ~/gatling-charts-highcharts-bundle-2.3.0
+    ```
+
+- `user-files/simulations/handson.scala` の以下の部分を編集し、試験の向け先を **「sls で作成した自分の API」** に修正する
     ```scala
     val httpConf = http
-       .baseURL("https://3hgxd7x111.execute-api.ap-southeast-1.amazonaws.com/")  // ここ
+       .baseURL("https://3hgxd7x111.execute-api.ap-southeast-1.amazonaws.com/")  // ここを sls で作成した自分の API に修正する
     ```
 
 - 試験ツール実行
     - `bash bin/gatling.sh -s HandsOnRequest`
 
-
-## 試験結果の確認 (暫定)
-- 条件
-    - 試験結果がすべて `OK` で、 `KO` (=NGの意味) が無いこと
-
+## 試験結果の例
 - 出力サンプル: 以下のような標準出力から OK そうか確認してください。 (web server からレポートも確認できるが、いまはNW的に許可していない。手元に html file を scp して見てもらっても構わない)
     ```
     ================================================================================
@@ -64,11 +85,6 @@
 
     Reports generated in 1s.
     Please open the following file: /home/ec2-user/gatling-charts-highcharts-bundle-2.3.0/results/handsonrequest-1554688411952/index.html
+
+    ----ここから下に合格・不合格が出る
     ```
-
-## KO がある場合 (= エラーが有る)
-- ログ見たりいろいろして対処して、OK になったら教えてください。
-
-## 更新予定
-- 結果が slack 通知されたり dashboard 表示されたり
-
