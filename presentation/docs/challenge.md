@@ -29,7 +29,7 @@
 
 - 試験ツールのディレクトリに移動
     ```sh
-    $ cd ~/gatling-charts-highcharts-bundle-2.3.0
+    $ cd ~/2019nttcomtraining/faas/application/bench/gatling-charts-highcharts-bundle-2.3.0
     ```
 
 - `user-files/simulations/handson.scala` の以下の部分を編集し、試験の向け先を **「sls で作成した自分の API」** に修正する
