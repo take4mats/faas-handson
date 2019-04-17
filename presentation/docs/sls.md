@@ -25,7 +25,7 @@
 - デプロイ
     ```sh
     $ cd ~/2019nttcomtraining/faas/application/backend
-    $ sls deploy --profile faasXX --stage faasXX-sls --region ap-southeast1
+    $ sls deploy --profile faasXX --stage faasXX --region ap-southeast1
       # パラメータは各自の環境に合わせて変更してね！
     ```
 
