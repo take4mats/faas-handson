@@ -4,7 +4,7 @@
 - 重要な環境の情報
     ```
     profile: faasXX (XX 部分は自分の番号を確認)
-    stage  : faasXX-sls (XX 部分は自分の番号を確認)
+    stage  : faasXX (XX 部分は自分の番号を確認)
     region : ap-southeast-1 (全員共通
     ```
 
