@@ -34,7 +34,7 @@
 ![gatling_report](faas/presentation/assets/img/gatling_report.png)
 @divend
 
-@div[right-40]
+@div[right-50]
 @ul[](false)
 - Scala でシナリオを書く web や API の負荷試験ツールです
 - 公式: https://gatling.io/　
