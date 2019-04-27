@@ -83,13 +83,14 @@ source: [Introduction to Serverless: What is Serverless?](https://www.youtube.co
 <img src="faas/presentation/assets/img/faas4.png" width="80%">
 
 +++
+
 以下、小ネタ
 
 +++
 
-### メテオフォール型開発 - 神という存在
+### メテオフォール型開発
 神の前ではウォーターフォールもアジャイルも通じないらしい
-![meteor-fall](faas/presentation/assets/img/meteor-fall.png)
+<img src="faas/presentation/assets/img/meteor-fall.png" width="80%">
 
 - 参考: http://eiki.hatenablog.jp/entry/meteo_fall
 

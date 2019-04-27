@@ -10,7 +10,7 @@
 
 ##### 一般的なCRUD API
 
-<img src="faas/presentation/assets/img/web_api.jpg" width="80%">
+<img src="faas/presentation/assets/img/web_api.jpg" width="60%">
 
 ##### source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
@@ -34,9 +34,9 @@
 
 - 画像アップロード→リサイズや切り出し
 
-<img src="faas/presentation/assets/img/nikkei.jpg" width="80%">
+<img src="faas/presentation/assets/img/nikkei.jpg" width="60%">
 
-##### source: [紙面ビューアーを刺させるサーバレスアーキテクチャ](https://speakerdeck.com/ikait/serverless-architecture-supports-nikkeis-paper-viewer)
+##### source: [紙面ビューアーを支えるサーバレスアーキテクチャ](https://speakerdeck.com/ikait/serverless-architecture-supports-nikkeis-paper-viewer)
 
 +++
 
@@ -44,7 +44,7 @@
 
 ##### 定期的なトリガーでヘルスチェックを実行
 
-<img src="faas/presentation/assets/img/monitoring.jpg" width="80%">
+<img src="faas/presentation/assets/img/monitoring.jpg" width="60%">
 
 ##### source: [サーバーレスアーキテクチャのパターン別ユースケース](https://yoshidashingo.hatenablog.com/entry/serverlss-usecases-2017)
 
@@ -64,6 +64,6 @@
 
 ##### aiboはすべてサーバレス
 
-<img src="faas/presentation/assets/img/aibo.jpg" width="80%">
+<img src="faas/presentation/assets/img/aibo.jpg" width="60%">
 
 ##### source: [aiboクラウドサービスを支えるサーバレス技術](https://speakerdeck.com/ryoheimorimoto/serverlessconf-tokyo-2018-aibo)
