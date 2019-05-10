@@ -52,11 +52,11 @@
     api keys:
     None
     endpoints:  # 以下エンドポイントのURL報告して貰うかも。5つあることも確認
-    GET - https://2m8wyq5lv3.execute-api.ap-southeast-1.amazonaws.com/demo/tasks
-    POST - https://2m8wyq5lv3.execute-api.ap-southeast-1.amazonaws.com/demo/tasks
-    GET - https://2m8wyq5lv3.execute-api.ap-southeast-1.amazonaws.com/demo/tasks/{id}
-    PUT - https://2m8wyq5lv3.execute-api.ap-southeast-1.amazonaws.com/demo/tasks/{id}
-    DELETE - https://2m8wyq5lv3.execute-api.ap-southeast-1.amazonaws.com/demo/tasks/{id}
+    GET - https://hogehoge.execute-api.ap-southeast-1.amazonaws.com/demo/tasks
+    POST - https://hogehoge.execute-api.ap-southeast-1.amazonaws.com/demo/tasks
+    GET - https://hogehoge.execute-api.ap-southeast-1.amazonaws.com/demo/tasks/{id}
+    PUT - https://hogehoge.execute-api.ap-southeast-1.amazonaws.com/demo/tasks/{id}
+    DELETE - https://hogehoge.execute-api.ap-southeast-1.amazonaws.com/demo/tasks/{id}
     functions:
     todo: todo-function-demo  # あなた用の Lambda function を探す時にここの名前で
     layers:

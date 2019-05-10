@@ -35,7 +35,7 @@
 - `user-files/simulations/handson.scala` の以下の部分を編集し、試験の向け先を **「sls で作成した自分の API」** に修正する
     ```scala
     val httpConf = http
-       .baseURL("https://3hgxd7x111.execute-api.ap-southeast-1.amazonaws.com/")  // ここを sls で作成した自分の API に修正する
+       .baseURL("https://hogehoge.execute-api.ap-southeast-1.amazonaws.com/")  // ここを sls で作成した自分の API に修正する
     ```
 
 - 試験ツール実行
