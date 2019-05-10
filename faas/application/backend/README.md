@@ -1,7 +1,6 @@
 
 # APP 紹介
-シンプルなTodo APPである
-Viewはindex.htmlをそのまま利用
+シンプルなTodo APPであり、バックエンドのみである。（フロントエンドはIaaS, CaaS, FaaS共通のものを利用）
 下記のAPI仕様書を読み、Backendコードを完成してほしい
 言語はPython、FlameworkはFlaskとする
 
